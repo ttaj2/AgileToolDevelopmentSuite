@@ -16,5 +16,15 @@ namespace AgileDevelopmentToolsSuite
     {
       InitializeComponent();
     }
+
+    private void MainMenuForm_Load(object sender, EventArgs e)
+    {
+      
+    }
+
+    private void menuNumUrgentTasks_TextChanged(object sender, EventArgs e)
+    {
+
+    }
   }
 }

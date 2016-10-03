@@ -43,6 +43,7 @@
       this.curTasksRadio3 = new System.Windows.Forms.RadioButton();
       this.curTasksRadioGroup = new System.Windows.Forms.GroupBox();
       this.curTaskDescLabel = new System.Windows.Forms.Label();
+      this.curTaskDescVScroll = new System.Windows.Forms.VScrollBar();
       this.curTasksRadioGroup.SuspendLayout();
       this.SuspendLayout();
       // 
@@ -210,6 +211,13 @@
       this.curTaskDescLabel.TabIndex = 13;
       this.curTaskDescLabel.Text = "Modify task description";
       // 
+      // curTaskDescVScroll
+      // 
+      this.curTaskDescVScroll.Location = new System.Drawing.Point(1015, 123);
+      this.curTaskDescVScroll.Name = "curTaskDescVScroll";
+      this.curTaskDescVScroll.Size = new System.Drawing.Size(17, 548);
+      this.curTaskDescVScroll.TabIndex = 14;
+      // 
       // TaskForm
       // 
       this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -217,6 +225,7 @@
       this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
       this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
       this.ClientSize = new System.Drawing.Size(1045, 690);
+      this.Controls.Add(this.curTaskDescVScroll);
       this.Controls.Add(this.curTaskDescLabel);
       this.Controls.Add(this.curTasksRadioGroup);
       this.Controls.Add(this.curTasksSaveButton);
@@ -253,5 +262,6 @@
     private System.Windows.Forms.RadioButton curTasksRadio3;
     private System.Windows.Forms.GroupBox curTasksRadioGroup;
     private System.Windows.Forms.Label curTaskDescLabel;
+    private System.Windows.Forms.VScrollBar curTaskDescVScroll;
   }
 }
