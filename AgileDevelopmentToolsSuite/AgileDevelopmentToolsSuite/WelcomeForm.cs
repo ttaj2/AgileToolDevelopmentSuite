@@ -23,5 +23,15 @@ namespace AgileDevelopmentToolsSuite
             LoginForm loginForm = new LoginForm();
             loginForm.Show();
         }
+
+    private void WelcomeForm_Load(object sender, EventArgs e)
+    {
+
     }
+
+    private void welcomeLabel_Click(object sender, EventArgs e)
+    {
+
+    }
+  }
 }
