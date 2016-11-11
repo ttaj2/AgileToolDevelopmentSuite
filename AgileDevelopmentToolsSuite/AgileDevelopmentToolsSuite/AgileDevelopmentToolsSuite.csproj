@@ -52,6 +52,9 @@
     </StartupObject>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NetworkCommsDotNetComplete">
+      <HintPath>..\..\NetworkCommsDotNetComplete.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -70,6 +73,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ADTSDatabaseDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="ConnectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConnectForm.Designer.cs">
+      <DependentUpon>ConnectForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="DeveloperForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +90,12 @@
     </Compile>
     <Compile Include="ChatForm.Designer.cs">
       <DependentUpon>ChatForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HostForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HostForm.Designer.cs">
+      <DependentUpon>HostForm.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
@@ -117,8 +132,14 @@
     <EmbeddedResource Include="ChatForm.resx">
       <DependentUpon>ChatForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ConnectForm.resx">
+      <DependentUpon>ConnectForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DeveloperForm.resx">
       <DependentUpon>DeveloperForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HostForm.resx">
+      <DependentUpon>HostForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

@@ -30,3 +30,9 @@ C:\Users\Talha\Desktop\Junk\team project cs440\AgileDevelopmentToolsSuite\AgileD
 C:\Users\Talha\Desktop\Junk\team project cs440\AgileDevelopmentToolsSuite\AgileDevelopmentToolsSuite\obj\Debug\AgileDevelopmentToolsSuite.SkillSetForm.resources
 C:\Users\Talha\Desktop\Junk\team project cs440\AgileDevelopmentToolsSuite\AgileDevelopmentToolsSuite\obj\Debug\AgileDevelopmentToolsSuite.WelcomeForm.resources
 C:\Users\Talha\Desktop\Junk\team project cs440\AgileDevelopmentToolsSuite\AgileDevelopmentToolsSuite\obj\Debug\AgileDevelopmentToolsSuite.csproj.GenerateResource.Cache
+C:\Users\Talha\Desktop\Junk\team project cs440\AgileDevelopmentToolsSuite\AgileDevelopmentToolsSuite\bin\Debug\NetworkCommsDotNetComplete.dll
+C:\Users\Talha\Desktop\Junk\team project cs440\AgileDevelopmentToolsSuite\AgileDevelopmentToolsSuite\bin\Debug\NetworkCommsDotNetComplete.pdb
+C:\Users\Talha\Desktop\Junk\team project cs440\AgileDevelopmentToolsSuite\AgileDevelopmentToolsSuite\bin\Debug\NetworkCommsDotNetComplete.xml
+C:\Users\Talha\Desktop\Junk\team project cs440\AgileDevelopmentToolsSuite\AgileDevelopmentToolsSuite\obj\Debug\AgileDevelopmentToolsSuite.ChatForm.resources
+C:\Users\Talha\Desktop\Junk\team project cs440\AgileDevelopmentToolsSuite\AgileDevelopmentToolsSuite\obj\Debug\AgileDevelopmentToolsSuite.ConnectForm.resources
+C:\Users\Talha\Desktop\Junk\team project cs440\AgileDevelopmentToolsSuite\AgileDevelopmentToolsSuite\obj\Debug\AgileDevelopmentToolsSuite.HostForm.resources

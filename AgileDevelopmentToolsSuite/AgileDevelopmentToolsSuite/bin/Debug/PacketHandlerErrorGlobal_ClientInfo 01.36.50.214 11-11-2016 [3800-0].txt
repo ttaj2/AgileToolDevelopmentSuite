@@ -1,0 +1,18 @@
+Base Exception Type: System.InvalidOperationException: Cross-thread operation not valid: Control 'Users' accessed from a thread other than the thread it was created on.
+   at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.ListBox.NativeAdd(Object item)
+   at System.Windows.Forms.ListBox.ObjectCollection.AddInternal(Object item)
+   at System.Windows.Forms.ListBox.ObjectCollection.Add(Object item)
+   at AgileDevelopmentToolsSuite.ChatForm.addUser(clientInfoServ user) in C:\Users\Talha\Desktop\Junk\team project cs440\AgileDevelopmentToolsSuite\AgileDevelopmentToolsSuite\ChatForm.cs:line 72
+   at AgileDevelopmentToolsSuite.ChatForm.addClient(PacketHeader packetHeader, Connection connection, clientInfo incomingObject) in C:\Users\Talha\Desktop\Junk\team project cs440\AgileDevelopmentToolsSuite\AgileDevelopmentToolsSuite\ChatForm.cs:line 107
+   at NetworkCommsDotNet.Tools.PacketTypeHandlerDelegateWrapper`1.Process(PacketHeader packetHeader, Connection connection, Object obj) in c:\Users\Karnifexx\Documents\Visual Studio 2010\Projects\networkcomms.net\NetworkCommsDotNet\Tools\PacketUnwrappers.cs:line 85
+   at NetworkCommsDotNet.NetworkComms.TriggerGlobalPacketHandlers(PacketHeader packetHeader, Connection connection, Object returnObject, Boolean ignoreUnknownPacketTypeOverride) in c:\Users\Karnifexx\Documents\Visual Studio 2010\Projects\networkcomms.net\NetworkCommsDotNet\NetworkComms.cs:line 746
+
+Stack Trace:    at System.Windows.Forms.Control.get_Handle()
+   at System.Windows.Forms.ListBox.NativeAdd(Object item)
+   at System.Windows.Forms.ListBox.ObjectCollection.AddInternal(Object item)
+   at System.Windows.Forms.ListBox.ObjectCollection.Add(Object item)
+   at AgileDevelopmentToolsSuite.ChatForm.addUser(clientInfoServ user) in C:\Users\Talha\Desktop\Junk\team project cs440\AgileDevelopmentToolsSuite\AgileDevelopmentToolsSuite\ChatForm.cs:line 72
+   at AgileDevelopmentToolsSuite.ChatForm.addClient(PacketHeader packetHeader, Connection connection, clientInfo incomingObject) in C:\Users\Talha\Desktop\Junk\team project cs440\AgileDevelopmentToolsSuite\AgileDevelopmentToolsSuite\ChatForm.cs:line 107
+   at NetworkCommsDotNet.Tools.PacketTypeHandlerDelegateWrapper`1.Process(PacketHeader packetHeader, Connection connection, Object obj) in c:\Users\Karnifexx\Documents\Visual Studio 2010\Projects\networkcomms.net\NetworkCommsDotNet\Tools\PacketUnwrappers.cs:line 85
+   at NetworkCommsDotNet.NetworkComms.TriggerGlobalPacketHandlers(PacketHeader packetHeader, Connection connection, Object returnObject, Boolean ignoreUnknownPacketTypeOverride) in c:\Users\Karnifexx\Documents\Visual Studio 2010\Projects\networkcomms.net\NetworkCommsDotNet\NetworkComms.cs:line 746

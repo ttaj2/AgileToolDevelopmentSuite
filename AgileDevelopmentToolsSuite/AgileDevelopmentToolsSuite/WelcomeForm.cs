@@ -20,8 +20,27 @@ namespace AgileDevelopmentToolsSuite
         private void startButton_Click(object sender, EventArgs e)
         {
             this.Hide();
-            LoginForm loginForm = new LoginForm();
-            loginForm.Show();
+            ProjectMangerForm projForm = new ProjectMangerForm();
+            projForm.Show();
         }
-    }
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+			this.Hide();
+			HostForm hostForm = new HostForm();
+			hostForm.Show();
+		}
+
+		private void button2_Click(object sender, EventArgs e)
+		{
+			this.Hide();
+			ConnectForm connectForm = new ConnectForm();
+			connectForm.Show();
+		}
+
+		private void WelcomeForm_Load(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
